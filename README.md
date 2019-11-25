@@ -80,6 +80,14 @@
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
 
+## 项目技术栈
+
+| 构成         | 框架    |
+| ------------ | ------- |
+| 前端视图页面 | vue     |
+| 工程化       | webpack |
+| 前端UI       | vortex-pc |
+
 ## Sponsors
 
 Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/panjiachen)
