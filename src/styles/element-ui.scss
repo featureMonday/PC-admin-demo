@@ -1,0 +1,79 @@
+// cover some element-ui styles
+
+.vp-breadcrumb__inner,
+.vp-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.vp-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.vp-upload__input {
+  display: none;
+}
+
+.cell {
+  .vp-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .vp-button--mini {
+    padding: 7px 10px;
+    width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .vp-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.vp-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .vp-upload {
+    width: 100%;
+
+    .vp-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.vp-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.vp-range-editor.vp-input__inner {
+  display: inline-flex !important;
+}
